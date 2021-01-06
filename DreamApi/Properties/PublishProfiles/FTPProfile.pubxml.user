@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJwKxJwGjiEmk4Zd/UhoOFgAAAAACAAAAAAAQZgAAAAEAACAAAADj2iVc6GfgejVQrjF6VI/BVd5uiztZibM6hb4ExpCE5QAAAAAOgAAAAAIAACAAAADH4RP6QLdw9cI3w4XogE11Fh2EpBOe8tIwk/7S67mEPiAAAAAUEDMdvw36mq7nsod/Df/aCSfOqL5cStUWXLE7A5+yLkAAAACL/1GiN2pqq3WyQtJjIm2qUJPyXm59sunQOVuH3y5AfKZTSaZ+hfwoDhnSxPodIkzl3l4r+242ERt4HtGMewll</EncryptedPassword>
+    <_PublishTargetUrl>ftp://demoapi.somee.com/www.demoapi.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>01/04/2021 22:36:01</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>01/04/2021 22:36:01</publishTime>
+    </File>
+    <File Include="Autofac.dll">
+      <publishTime>12/04/2020 15:52:44</publishTime>
+    </File>
+    <File Include="Autofac.Extensions.DependencyInjection.dll">
+      <publishTime>10/29/2020 13:06:32</publishTime>
+    </File>
+    <File Include="DreamApi.deps.json">
+      <publishTime>01/05/2021 23:08:37</publishTime>
+    </File>
+    <File Include="DreamApi.dll">
+      <publishTime>01/05/2021 23:08:36</publishTime>
+    </File>
+    <File Include="DreamApi.exe">
+      <publishTime>01/05/2021 23:08:37</publishTime>
+    </File>
+    <File Include="DreamApi.pdb">
+      <publishTime>01/05/2021 23:08:36</publishTime>
+    </File>
+    <File Include="DreamApi.runtimeconfig.json">
+      <publishTime>01/05/2021 23:08:37</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.JsonPatch.dll">
+      <publishTime>10/21/2020 00:07:34</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll">
+      <publishTime>10/21/2020 00:17:56</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.Bson.dll">
+      <publishTime>11/27/2018 23:10:18</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="RestSharp.dll">
+      <publishTime>09/30/2020 21:10:06</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>04/14/2020 22:48:06</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>01/05/2021 23:08:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
