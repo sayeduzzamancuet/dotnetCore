@@ -32,7 +32,7 @@ namespace DreamApi.Controllers
                return Unauthorized();
            }
 
-           return Ok(token);
+           return new JsonResult(token);
         }
     }
 }

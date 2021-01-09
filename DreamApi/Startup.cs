@@ -30,7 +30,13 @@ namespace DreamApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
             services.AddControllers().AddNewtonsoftJson();
+
+            
             string key = "this is my secret key";
             services.AddSingleton<IAuthService>(new AuthService(key));
             services.AddAuthentication(x =>
@@ -66,6 +72,7 @@ namespace DreamApi
             }
 
             app.UseRouting();
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseAuthentication();
 
             app.UseAuthorization();
