@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DreamApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
@@ -58,6 +59,7 @@ namespace DreamApi
             var builder = new ContainerBuilder();
             builder.RegisterType<EmailService>().As<IEmailService>();
             builder.RegisterType<AuthService>().As<IAuthService>();
+            builder.RegisterType<QuestionService>().As<IQuestionService>();
             builder.Populate(services);
             var container = builder.Build();
             return new AutofacServiceProvider(container);

@@ -70,3 +70,12 @@ C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\obj\Debug\netcoreapp3.1\DreamA
 C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\obj\Debug\netcoreapp3.1\DreamApi.dll
 C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\obj\Debug\netcoreapp3.1\DreamApi.pdb
 C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\obj\Debug\netcoreapp3.1\DreamApi.genruntimeconfig.cache
+C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+C:\Users\Sayed\Documents\work\dotnetCore\DreamApi\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll

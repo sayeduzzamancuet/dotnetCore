@@ -31,7 +31,7 @@ namespace DreamApi.Services
         };
         public string Authenticate(UserDto userDto)
         {
-            if (userDto.UserName.Length == 0)//for demo purpose only
+            if (userDto.UserName.Length < 2)//for demo purpose only
             {
                 return null;
             }
