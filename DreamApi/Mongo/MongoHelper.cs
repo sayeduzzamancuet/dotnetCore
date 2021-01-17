@@ -18,6 +18,7 @@ namespace DreamApi.Mongo
 
 
         public static IMongoCollection<Question>QuestionCollection { get; set; }
+        public static IMongoCollection<Company>CompanyCollection { get; set; }
 
         internal static void ConnectToMongoService()
         {

@@ -16,6 +16,7 @@ namespace DreamApi.Services
         {
             MongoHelper.ConnectToMongoService();
             MongoHelper.QuestionCollection = MongoHelper.database.GetCollection<Question>("questions");
+            MongoHelper.CompanyCollection = MongoHelper.database.GetCollection<Company>("company");
         }
         public Question GetQuestionById(string Id)
         {
@@ -50,6 +51,14 @@ namespace DreamApi.Services
         {
             MongoHelper.QuestionCollection.InsertOneAsync(question);
             return true;
+        }
+
+        public IEnumerable<Company> GetListedCompanies()
+        {
+            var filter = Builders<Company>.Filter.Exists("_id");
+            var companies = MongoHelper.CompanyCollection.Find(filter).ToList().Distinct();
+
+            return companies;
         }
     }
 }

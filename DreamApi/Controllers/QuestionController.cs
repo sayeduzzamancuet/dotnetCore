@@ -46,5 +46,13 @@ namespace DreamApi.Controllers
              _questionService.UpdateQuestionById(question);
             return Ok("updated");
         }
+        [Route("companies")]
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult GetListedCompanies()
+        {
+            var data=_questionService.GetListedCompanies();
+            return Ok(data);
+        }
     }
 }

@@ -12,5 +12,6 @@ namespace DreamApi.Services
         IEnumerable<Question> GetQuestionByQuery(string company,string stack,string position);
         void UpdateQuestionById(Question question);
         bool AddNewQuestion(Question question);
+        IEnumerable<Company> GetListedCompanies();
     }
 }
